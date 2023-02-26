@@ -14,7 +14,7 @@
 }
 .logo{
     padding: 30px 0px;
-    font-size: 40px;
+    font-size: 28px;
     
 }
 .menu-area ul{
@@ -89,7 +89,177 @@ main{
 
 }
 
+.features-info{
+    display: flex;
+    align-items: center;
+}
+
 .features-data{
     padding-left: 4%;
     
+}
+.features-data h3 {
+    font-size: 40px;
+    color: #727272;
+}
+
+
+.features-data p{
+    padding-top: 30px;
+    width: 70%;
+    font-size: 18px;
+}
+
+.color-two{
+    color: #FF900E!important;
+}
+.color-one{
+    color: #0e0e0e!important;
+}
+
+/* feature-area-two  */
+
+.feature-area-two{
+    display: flex;
+}
+
+.feature-data-two{
+    padding-left: 11%;
+    width: 50%;
+}
+.feature-data-two-img {
+    margin-right: 10%;
+    width: 50%;
+}
+
+.feature-data-two-img img{
+    width: 90%;
+    height: 90%;
+}
+.service-data{
+ padding-top: 50px;
+}
+.service-data h2{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    font-size: 40px;
+    
+}
+.service-data p{
+    margin-top: 20px;
+    font-size: 19px;
+    width: 60%;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.feature-service {
+    padding: 25px;
+    width: 80%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 13px rgba(209, 202, 202, 0.356);
+    margin-bottom: 40px;
+}
+.feature-service h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.feature-service p{
+    font-size: 16px;
+
+}
+
+.position-button{
+    padding: 16px 101px;
+    font-size: 40px;
+    background-color: #FF900E;
+    color: #FFF4E7;
+    border: none;
+    position: relative;
+    bottom: 144px;
+    right: 100px;
+    border-radius: 5px;
+}
+
+.position-button-span {
+    font-size: 18px;
+}
+
+.facts-data{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.our-facts{
+    border: 2px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+.our-facts h4 {
+    font-size: 40px;
+}
+
+
+.our-facts h5 {
+    font-size: 20px;
+}
+
+.facts{
+    margin-bottom: 90px;
+    margin-left: 190px;
+}
+
+.facts p{
+    width: 25%;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.facts h2{
+ font-size: 40px;
+}
+
+.sponspors{
+    margin-top: 150px;
+}
+
+.sponspors h3 {
+    font-size:45px;
+    margin-top: 15px;
+}
+
+.sponspors p{
+    font-size:16px;
+    padding: 35px 0px;
+}
+
+.sponspors_data{
+    text-align: center;
+}
+
+.sponspors-icon {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+
+footer{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 70px;
+ 
+}
+
+footer p {
+    background-color:#FFF4E7;
+    width: 80%;
+    padding: 30px 0px;
+    font-size: 19px;
+    border-radius: 5px;
 }
