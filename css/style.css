@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.hide {
+    display: none !important;
+}
+
 p{
     color: #727272;
 }
@@ -17,7 +21,8 @@ p{
     display: flex;
     justify-content: space-around;
     background-color:#FFF4E7;
-    height: 120px;
+    /* height: 120px; */
+    
 }
 .logo{
     padding: 30px 0px;
@@ -38,7 +43,7 @@ p{
 .menu-area ul li {
     list-style: none;
     line-height: 120px;
-    padding-right: 40px;
+    padding: 0px 20px !important;
     
 }
 .menu-area ul li a{
@@ -101,13 +106,6 @@ main{
     margin: 100px;    
 }
 
-.features-img{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    gap: 20px;
-    padding-left: 10%;
-
-}
 
 .features-info{
     display: flex;
@@ -222,6 +220,8 @@ main{
 }
 
 
+/* our-facts  */
+
 .our-facts{
     border: 2px solid #FF900E;
     text-align: center;
@@ -260,6 +260,8 @@ main{
  font-weight: 900;
 }
 
+/* sponspors  */
+
 .sponspors{
     margin-top: 150px;
 }
@@ -287,6 +289,8 @@ main{
     margin-bottom: 90px;
 }
 
+/* footer  */
+
 footer{
  text-align: center;
  display: flex;
@@ -302,4 +306,200 @@ footer p {
     font-size: 19px;
     border-radius: 5px;
     font-weight: 400;
+}
+
+
+@media screen and (max-width:576px) {
+
+    /* header-area  */
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .logo{
+        text-align: center;
+    }
+    .menu-area ul li {
+        padding: 0px 20px !important;
+        line-height: 50px;
+    }
+
+
+    .menu-area ul {
+        display: flex;
+        flex-direction: column;    
+    }
+
+    /* banner-area  */
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .banner-data h3 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .banner-data p {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    /* features  */
+
+    /* .features-img img{
+        width: 100%;
+    } */
+
+    .features-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-area {
+        margin:0px;
+    }
+
+    .features-data p {
+        width: 90%;
+    }
+
+    .features-img img{
+      width: 90%;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+
+    .features-img{
+      text-align: center;
+    }
+
+    .feature-area-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .feature-data-two {
+        padding-left: 10%;
+        width: 100%;
+    }
+
+    .service-data h2 {
+        font-size: 32px;
+    }
+
+    .feature-service {
+        padding: 25px;
+        width: 93%;
+        margin-bottom: 40px;
+    }
+
+    .feature-service {
+        width: 90%;
+    }
+
+    .feature-data-two-img{
+        width: 100%;
+        text-align: center;
+    
+    }
+    .feature-data-two-img img{
+        width: 90%;
+    
+    }
+
+    .position-button {
+        padding: 16px 101px;
+        font-size: 40px;
+        background-color: #FF900E;
+        color: #FFF4E7;
+        border: none;
+        position: relative;
+        bottom: -11px;
+        right: 4px;
+        border-radius: 5px;
+        font-weight: 900;
+    }
+
+
+    .facts-data {
+        flex-direction: column;
+    }
+
+
+    .service-data p {
+        font-size: 17px;
+        width: 91%;
+    }
+
+
+    /* our-facts  */
+    .facts-data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-facts {
+
+        padding: 30px;
+        border-radius: 5px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+
+    .facts {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+
+    .facts p {
+        width: 95%;
+        font-size: 16px;
+    }
+
+
+    .sponspors-icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponspors-icon img{
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    /* footer  */
+
+    footer p{
+        width: 100%;
+        font-size: 15px;
+        margin-top:20px;
+        padding: 15px;
+    }
+
+
+}
+
+
+@media screen and (min-width:577px) {
+    .header {
+        height: 120px;
+        
+    }
+
+    .features-img{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+        padding-left: 10%;
+    }
+    
 }
