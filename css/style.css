@@ -2,7 +2,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+p{
+    color: #727272;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 
 /* header  */
 
@@ -15,8 +22,14 @@
 .logo{
     padding: 30px 0px;
     font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    
     
 }
+.logo h3{
+    font-weight: 900;
+}
+
 .menu-area ul{
     display: flex;
     justify-content: space-around;
@@ -30,15 +43,18 @@
 }
 .menu-area ul li a{
     text-decoration: none;
-    font-size: 19px;
+    font-size: 16px;
     text-transform: capitalize;
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 /* banner-part  */
 main{
     background-color:#FFF4E7;
     padding-bottom: 60px;
+    
 }
 .banner{
     display: flex;
@@ -54,9 +70,12 @@ main{
    font-size: 19px;
    padding-top: 20px;
    padding-top: 30px;
+   line-height: 30px;
+   font-weight: 400;
 }
 .banner-data h3 {
    font-size: 60px;
+   font-weight: 900;
 }
 
 .padding-top-20{
@@ -65,12 +84,13 @@ main{
 
 .button{
     padding: 14px 20px;
-    font-size: 19px;
+    font-size: 14px;
     background-color: #FF900E;
     color: aliceblue;
     border: none;
     border-radius: 5px;
     margin: 30px 0px;
+    font-weight: 900;
 }
 
 
@@ -101,6 +121,7 @@ main{
 .features-data h3 {
     font-size: 40px;
     color: #727272;
+    font-weight: 400;
 }
 
 
@@ -108,6 +129,8 @@ main{
     padding-top: 30px;
     width: 70%;
     font-size: 18px;
+    font-weight: 400!important;
+    line-height: 30px;
 }
 
 .color-two{
@@ -115,6 +138,7 @@ main{
 }
 .color-one{
     color: #0e0e0e!important;
+    font-weight: 900!important;
 }
 
 /* feature-area-two  */
@@ -124,7 +148,7 @@ main{
 }
 
 .feature-data-two{
-    padding-left: 11%;
+    padding-left: 10%;
     width: 50%;
 }
 .feature-data-two-img {
@@ -143,14 +167,16 @@ main{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
     font-size: 40px;
+    font-weight: 900;
     
 }
 .service-data p{
     margin-top: 20px;
     font-size: 19px;
-    width: 60%;
+    width: 82%;
     padding: 20px 0px;
     margin-bottom: 20px;
+    line-height: 30px;
 }
 
 .feature-service {
@@ -163,11 +189,13 @@ main{
 .feature-service h4{
     font-size: 20px;
     margin-bottom: 15px;
+    font-weight: 900;
 
 }
 .feature-service p{
-    font-size: 16px;
-
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .position-button{
@@ -180,10 +208,12 @@ main{
     bottom: 144px;
     right: 100px;
     border-radius: 5px;
+    font-weight: 900;
 }
 
 .position-button-span {
     font-size: 18px;
+    font-weight: 400;
 }
 
 .facts-data{
@@ -197,6 +227,7 @@ main{
     text-align: center;
     padding: 30px;
     border-radius: 5px;
+    width: 250px;
 }
 
 
@@ -207,21 +238,26 @@ main{
 
 .our-facts h5 {
     font-size: 20px;
+    color: #727272;
+    text-transform: capitalize;
 }
 
 .facts{
     margin-bottom: 90px;
     margin-left: 190px;
+
 }
 
 .facts p{
-    width: 25%;
+    width: 37%;
     font-size: 18px;
     padding: 20px 0px;
+    font-weight: 400;
 }
 
 .facts h2{
  font-size: 40px;
+ font-weight: 900;
 }
 
 .sponspors{
@@ -231,11 +267,14 @@ main{
 .sponspors h3 {
     font-size:45px;
     margin-top: 15px;
+    font-weight: 900;
 }
 
 .sponspors p{
     font-size:16px;
     padding: 35px 0px;
+    font-weight: 400;
+    
 }
 
 .sponspors_data{
@@ -262,4 +301,5 @@ footer p {
     padding: 30px 0px;
     font-size: 19px;
     border-radius: 5px;
+    font-weight: 400;
 }
